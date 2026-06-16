@@ -1,0 +1,15 @@
+[package]
+name = "zenith"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zenith Contributors"]
+description = "Ultra-lightweight terminal system monitor for Linux (non-systemd friendly)."
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+crossterm = "0.26"
+ratatui = { version = "0.20" }
+anyhow = "1.0"
+thiserror = "1.0"
+libc = "0.2"
